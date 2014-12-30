@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+
+<ul>
+{% for page in site.pages %}
+  {% if page.layout == 'sheet' %}
+    <li>
+      <a href="sheets/{{ page.category }}.html">{{ page.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% for topic in site.topics %}
+  {{ topic.output }}
+{% endfor %}
+
+</div>

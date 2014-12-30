@@ -1,0 +1,15 @@
+# Site settings
+name: Cheatsheets
+title: Cheatsheets
+email: pauljmackay@gmail.com
+description: "A collection of cheatsheets in a quick reference layout."
+baseurl: ""
+url: "http://yourdomain.com"
+
+source: ./
+# Build settings
+markdown: kramdown
+permalinks: pretty
+
+collections:
+- topics
