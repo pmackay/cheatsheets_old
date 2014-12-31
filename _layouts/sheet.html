@@ -5,6 +5,8 @@ layout: default
 
 {% for topic in site.topics %}
   {% if topic.category == page.category %}
-  {{ topic.output }}
+  <div class="topic">
+    {{ topic.output }}
+  </div>
   {% endif %}
 {% endfor %}

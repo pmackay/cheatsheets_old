@@ -1,14 +1,15 @@
 # Site settings
 name: Cheatsheets
 title: Cheatsheets
-email: pauljmackay@gmail.com
-description: "A collection of cheatsheets in a quick reference layout."
-baseurl: ""
+email:
+description: "Quick reference cheatsheets."
+baseurl: /cheatsheets
 url: "http://yourdomain.com"
+username: pmackay
 
 source: ./
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalinks: pretty
 
 collections:
